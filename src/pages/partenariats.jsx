@@ -54,7 +54,12 @@ const Partenariats = () => {
       </div>
 
       {/* Section Association Les Mains Blanches */}
-      <div className="feature-panel" style={{ marginTop: '4rem' }}>
+      <div style={{ 
+        background: 'var(--color-light-gray)', 
+        borderRadius: '30px', 
+        padding: '4rem 2rem',
+        marginTop: '4rem'
+      }}>
         <div className="text-center" style={{ marginBottom: '3rem' }}>
           <img 
             src="/logos2/white hands logo.png" 
@@ -65,7 +70,7 @@ const Partenariats = () => {
           <p style={{ color: 'var(--color-light-green)', fontWeight: 'bold' }}>L'Entité de Gestion et d'Encadrement</p>
         </div>
 
-        <div className="split-grid">
+        <div className="grid" style={{ gridTemplateColumns: '1.5fr 1fr', alignItems: 'start' }}>
           {/* Description de l'association */}
           <div style={{ paddingRight: '20px' }}>
             <h3 style={{ color: 'var(--color-dark-green)', marginBottom: '1rem' }}>Notre Rôle Stratégique</h3>
