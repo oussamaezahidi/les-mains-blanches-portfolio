@@ -67,21 +67,10 @@ export default function Contact() {
           </p>
         </div>
 
-        <div style={{ 
-          display: 'grid', 
-          gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', 
-          gap: '4rem', 
-          marginBottom: '50px' 
-        }}>
+        <div className="contact-grid">
           
           {/* FORMULAIRE SECTION */}
-          <div style={{ 
-            background: '#ffffff', 
-            padding: '40px', 
-            borderRadius: '24px', 
-            boxShadow: '0 10px 30px rgba(0,0,0,0.05)',
-            border: '1px solid #f0f0f0'
-          }}>
+          <div className="contact-card">
             <h3 style={{ marginBottom: '2rem', color: 'var(--color-dark-green)', fontWeight: '700' }}>Envoyez-nous un message</h3>
             
             {submitted && (
@@ -145,7 +134,7 @@ export default function Contact() {
           </div>
 
           {/* INFOS SECTION */}
-          <div style={{ padding: '20px' }}>
+          <div className="contact-info">
             <h3 style={{ marginBottom: '2rem', color: 'var(--color-dark-green)', fontWeight: '700' }}>Coordonnées</h3>
             
             <div style={{ display: 'flex', gap: '20px', marginBottom: '30px' }}>
@@ -181,15 +170,7 @@ export default function Contact() {
               </div>
             </div>
 
-<div style={{ 
-  marginTop: '40px', 
-  width: '100%', 
-  height: '350px', 
-  borderRadius: '24px', 
-  overflow: 'hidden', 
-  boxShadow: '0 10px 30px rgba(0,0,0,0.1)',
-  border: '1px solid #e2e8f0'
-}}>
+<div className="contact-map">
   <iframe 
     src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1610.7418483134288!2d-7.530851783845159!3d33.38430443000673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sles%20mains%20blaches%20almadina%203%2C%20deroua!5e0!3m2!1sfr!2sma!4v1773270929867!5m2!1sfr!2sma" 
     width="100%" 
