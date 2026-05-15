@@ -14,13 +14,13 @@ const Home = () => {
       >
         <div className="container">
           <h1 className="hero-title">
-            Centre dâ€™Accueil et de Qualification des Personnes en Situation dâ€™Handicaps
+            Centre d’Accueil et de Qualification des Personnes en Situation d’Handicap
           </h1>
           <p className="hero-text">
-            Un environnement sÃ©curisÃ©, adaptÃ© et inclusif Ã  Deroua pour favoriser le dÃ©veloppement personnel et l'autonomie.
+            Un environnement sécurisé, adapté et inclusif à Deroua pour favoriser le développement personnel et l&apos;autonomie.
           </p>
           <div className="hero-actions">
-            <Link to="/about" className="btn btn-primary">DÃ©couvrir notre Mission</Link>
+            <Link to="/about" className="btn btn-primary">Découvrir notre Mission</Link>
             <Link
               to="/contact"
               className="btn"
@@ -69,18 +69,18 @@ const Home = () => {
         <div className="grid" style={{ gap: '30px' }}>
           <ProjectCard
             title="Notre Mission"
-            icon="ðŸŽ¯"
-            description="Apporter un accompagnement spÃ©cialisÃ© aux enfants en situation de handicap pour favoriser leur autonomie et leur intÃ©gration."
+            icon="🎯"
+            description="Apporter un accompagnement spécialisé aux enfants en situation de handicap pour favoriser leur autonomie et leur intégration."
           />
           <ProjectCard
             title="Notre Vision"
-            icon="ðŸ‘ï¸"
-            description="Construire une sociÃ©tÃ© plus inclusive Ã  Deroua et Berrechid oÃ¹ chaque personne bÃ©nÃ©ficie des mÃªmes opportunitÃ©s."
+            icon="👁️"
+            description="Construire une société plus inclusive à Deroua et Berrechid où chaque personne bénéficie des mêmes opportunités."
           />
           <ProjectCard
             title="Nos Valeurs"
-            icon="ðŸ¤"
-            description="SolidaritÃ©, respect de la dignitÃ© humaine, Ã©galitÃ© des chances et engagement communautaire profond."
+            icon="🤝"
+            description="Solidarité, respect de la dignité humaine, égalité des chances et engagement communautaire profond."
           />
         </div>
       </section>
@@ -89,16 +89,16 @@ const Home = () => {
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '80px' }}>
             <h2 style={{ fontSize: '2.8rem', color: 'var(--color-dark-green)', fontWeight: '800' }}>
-              L'Association en <span style={{ color: 'var(--color-secondary)' }}>Chiffres</span>
+              L&apos;Association en <span style={{ color: 'var(--color-secondary)' }}>Chiffres</span>
             </h2>
           </div>
 
           <div className="stats-grid">
             {[
-              { num: '120+', label: 'BÃ©nÃ©ficiaires', icon: 'ðŸ‘¶' },
-              { num: '40', label: 'Professionnels', icon: 'ðŸ‘¥' },
-              { num: '22', label: 'Ã‰ducatrices', icon: 'ðŸ‘©â€ðŸ«' },
-              { num: '3', label: 'Ã‰tages de Soins', icon: 'ðŸ¢' },
+              { num: '120+', label: 'Bénéficiaires', icon: '👶' },
+              { num: '40', label: 'Professionnels', icon: '👥' },
+              { num: '22', label: 'Éducatrices', icon: '👩‍🏫' },
+              { num: '3', label: 'Étages de Soins', icon: '🏢' },
             ].map((item, index) => (
               <div
                 key={index}
