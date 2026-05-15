@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Activites from './pages/Activites';
-import Partenariats from './pages/Partenariats';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
+import Home from './pages/home';
+import About from './pages/about';
+import Activites from './pages/activites';
+import Partenariats from './pages/partenariats';
 import Contact from './pages/Contact';
 import Galerie from './pages/Galerie';
 

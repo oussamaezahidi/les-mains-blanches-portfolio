@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Counter from '../components/Counter';
+import Counter from '../components/counter';
 import ProjectCard from '../components/ProjectCard';
 
 const Home = () => {
