@@ -67,7 +67,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div style={{ 
+        <div className="contact-grid" style={{ 
           display: 'grid', 
           gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', 
           gap: '4rem', 
@@ -75,7 +75,7 @@ export default function Contact() {
         }}>
           
           {/* FORMULAIRE SECTION */}
-          <div style={{ 
+          <div className="contact-card" style={{ 
             background: '#ffffff', 
             padding: '40px', 
             borderRadius: '24px', 
@@ -145,7 +145,7 @@ export default function Contact() {
           </div>
 
           {/* INFOS SECTION */}
-          <div style={{ padding: '20px' }}>
+          <div className="contact-info" style={{ padding: '20px' }}>
             <h3 style={{ marginBottom: '2rem', color: 'var(--color-dark-green)', fontWeight: '700' }}>Coordonnées</h3>
             
             <div style={{ display: 'flex', gap: '20px', marginBottom: '30px' }}>
@@ -181,7 +181,7 @@ export default function Contact() {
               </div>
             </div>
 
-<div style={{ 
+<div className="contact-map" style={{ 
   marginTop: '40px', 
   width: '100%', 
   height: '350px', 

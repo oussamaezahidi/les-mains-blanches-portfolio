@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div style={{ backgroundColor: '#fff' }}>
       {/* 1. Hero Section */}
-      <header style={{
+      <header className="hero-section" style={{
         height: '85vh',
         background: 'linear-gradient(rgba(20, 83, 45, 0.85), rgba(34, 197, 94, 0.4)), url("https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2070")',
         backgroundSize: 'cover',
@@ -17,13 +17,13 @@ const Home = () => {
         textAlign: 'center'
       }}>
         <div className="container">
-          <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', fontWeight: '800' }}>
+          <h1 className="hero-title" style={{ fontSize: '3.5rem', marginBottom: '1.5rem', fontWeight: '800' }}>
             Centre d’Accueil et de Qualification des Personnes en Situation d’Handicaps
           </h1>
-          <p style={{ fontSize: '1.3rem', maxWidth: '850px', margin: '0 auto 2.5rem', lineHeight: '1.8' }}>
+          <p className="hero-text" style={{ fontSize: '1.3rem', maxWidth: '850px', margin: '0 auto 2.5rem', lineHeight: '1.8' }}>
             Un environnement sécurisé, adapté et inclusif à Deroua pour favoriser le développement personnel et l'autonomie.
           </p>
-          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+          <div className="hero-actions" style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
             <Link to="/about" className="btn btn-primary">Découvrir notre Mission</Link>
             <Link to="/contact" className="btn" style={{ background: 'white', color: 'var(--color-dark-green)' }}>Nous Contacter</Link>
           </div>
@@ -66,7 +66,7 @@ const Home = () => {
             </h2>
           </div>
 
-          <div style={{ 
+          <div className="stats-grid" style={{ 
             display: 'grid', 
             gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', 
             gap: '30px' 
